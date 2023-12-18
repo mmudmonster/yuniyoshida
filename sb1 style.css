@@ -1,0 +1,84 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{background-image: url(sb1img/back.png); background-repeat: no-repeat;
+    background-position-x: center; background-repeat: no-repeat;
+    width: 100%;background-position-y: top; background-size: cover;
+    justify-content: center; height: 3768px;
+    background-size: cover;
+    background-position-x:center ;} 
+
+    a:link{color:white}
+    a:visited{color: white;}
+    a:hover{color: white;}
+    a:active{color: white;}
+
+.wrap{width: 1100px;height: 2018px;justify-content: center;align-items: center;margin: auto; background-position: center;
+background-position-x: center; position: relative;}
+
+.img1>img{margin-left: 584px; margin-top:240px; position: absolute;}
+.img2>img{margin-left: -179px; margin-top:182px; position: absolute;}
+.img3>img{margin-left: -543px; margin-top:675px; position: absolute;}
+.img5>img{margin-left: -1500px; margin-top:-400px; position: absolute;}
+.img6>img{margin-left: -1700px; margin-top:800px; position: absolute;}
+.img7>img{margin-left: 1800px; margin-top:800px; position: absolute;}
+.img8>img{margin-left: 1900px; margin-top:2200px; position: absolute;}
+.img9>img{margin-left: 900px; margin-top:2600px; position: absolute;}
+.img10>img{margin-left: -960px; margin-top:2400px; position: absolute;}
+
+
+header{align-items: center;justify-content: center;display: flex;margin: 16px;}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    height: 60px;
+    width: 475px;
+    display: flex;
+    justify-content: space-between; 
+}
+nav ul a{
+    display: block;
+    width: 118.75px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "forma-djr-banner", sans-serif;    
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -0.3px; text-decoration: none;
+position: relative;}
+
+nav ul a::before{
+    content:'';
+    height: 3px;
+    width: 0;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+}
+
+nav ul a:hover::before{
+    width: 100%;
+    background-color: white;
+}
+
+    

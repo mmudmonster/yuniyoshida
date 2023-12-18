@@ -1,0 +1,88 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+body{background-image: url(sb3img/back.png);background-repeat: no-repeat;
+    background-position-x: center; background-repeat: no-repeat;
+    width: 100%;background-position-y: top; background-size: cover;
+    justify-content: center; height: 11050px;
+    background-size: cover;}
+    
+a:link{color: white;}
+a:visited{color: white;}
+a:hover{color: white;}
+a:active{color: white;}
+
+.wrap{width: 1100px;height: 2018px;justify-content: center; ;margin: auto;}
+.img1>img{margin-left: -118px;margin-top: 225.8px;position: absolute;} 
+.img2>img{margin-left: 104px;margin-top: 1371.2px;position: absolute;}
+.img3>img{margin-left: 44px;margin-top: 1738.2px;position: absolute;} 
+.img4>img{margin-left: 417px;margin-top: 2216px;position: absolute;} 
+.img5>img{margin-left: 494px;margin-top: 2458.8px;position: absolute;} 
+.img6>img{margin-left: 0px;margin-top: 3042px;position: absolute;} 
+.img7>img{margin-left: 387px;margin-top: 5406px;position: absolute;} 
+.img8>img{margin-left: 494px;margin-top: 1940.2px;position: absolute;} 
+.img9>img{margin-left: 0px;margin-top: 4459px;position: absolute;} 
+.img10>img{margin-left: 0px;margin-top: 2312px;position: absolute;} 
+.img11>img{margin-left: -796px;margin-top: 4162px;position: absolute;} 
+.img12>img{margin-left: 434px;margin-top: 3291px;position: absolute;} 
+
+
+
+
+
+header{align-items: center;justify-content: center;display: flex;margin: 16px;}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    height: 60px;
+    width: 475px;
+    display: flex;
+    justify-content: space-between; 
+}
+nav ul a{
+    display: block;
+    width: 118.75px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "forma-djr-banner", sans-serif;    
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -0.3px; text-decoration: none;
+position: relative;}
+
+nav ul a::before{
+    content:'';
+    height: 3px;
+    width: 0;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+}
+
+nav ul a:hover::before{
+    width: 100%;
+    background-color: white;
+}
+
+    
